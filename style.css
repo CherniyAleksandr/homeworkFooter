@@ -22,7 +22,8 @@ ul {
 button {
     border: none;
     border-radius: 5px;
-    background: #5528FF;;
+    background: #5528FF;
+    ;
     color: #FFF;
     font-family: Ubuntu;
     font-size: 14px;
@@ -37,12 +38,12 @@ ul {
     font-weight: 700;
 }
 
-.header-main{
+.header-main {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin:3% 19%;
-    
+    margin: 3% 19%;
+
 }
 
 .logo-conteiner {
@@ -78,7 +79,7 @@ h2 {
     font-family: Ubuntu;
     font-size: 27px;
     font-weight: 400;
-    line-height: 160.86%; 
+    line-height: 160.86%;
     width: 62%;
     margin-bottom: 70px;
 }
@@ -108,11 +109,7 @@ h2 {
     gap: 67px;
 }
 
-.services-conteiner > div {
-    display: flex;
-    align-items: center;
-    width: 450px;
-}
+
 
 .footer-conteiner {
     display: flex;
@@ -135,7 +132,15 @@ h3 {
     width: 267px;
     height: 33px;
     margin-bottom: 17px;
-    
+
+}
+
+.services-conteiner>div {
+    display: flex;
+    align-items: center;
+    width: 450px;
+    gap: 30px;
+    margin-top: 10px;
 }
 
 .block1 p {
@@ -174,15 +179,18 @@ h3 {
     height: 61px;
 }
 
-.block1 img{
+.block1 img {
     margin-right: 67px;
 }
+
 .block2 img {
     margin-right: 44px;
 }
+
 .block3 img {
     margin-right: 48px;
 }
+
 .block4 img {
     margin-right: 64px;
 }
@@ -190,6 +198,87 @@ h3 {
 .block3 {
     margin-left: -25px;
 }
+
 .block4 {
     margin-right: -20px;
+}
+
+.our_clients>div {
+    width: 170px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin: 10px;
+}
+
+.our_clients>div>img {
+    width: 170px;
+    height: 40px;
+    gap: 30px;
+}
+
+.odin {
+    display: inline-flex;
+    justify-content: space-around;
+}
+
+.dva {
+    display: flex;
+    justify-content: space-around;
+}
+
+.tri {
+    display: flex;
+    justify-content: space-around;
+}
+
+.our_teamsBorder {
+    gap: 30px;
+    padding: 10px;
+    margin: 10px;
+}
+
+.our_teamsBorder>div>div>h6 {
+    color: #202020;
+    font-family: Ubuntu;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.our_teamsBorder>div>div>p {
+    color: #B2B2B2;
+    font-family: Ubuntu;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.our_teamsBorder>div>div>div {
+
+}
+
+
+.our_teamsBorder>div>div>img {
+    width: 100px;
+    height: 100px;
+
+}
+
+.agneshka {
+    display: flex;
+    justify-content: space-around;
+}
+
+.sergey {
+    display: flex;
+    justify-content: space-around;
+}
+
+.vadim {
+    display: flex;
+    justify-content: space-around;
 }
